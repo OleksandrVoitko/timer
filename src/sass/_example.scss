@@ -4,6 +4,44 @@
   line-height: 1.5;
   background-color: #fff;
   color: #2f2f37;
-  max-width: 960px;
+
   padding: 16px;
+}
+
+.clockface {
+  text-align: center;
+  font-size: 100px;
+  margin-bottom: 30px;
+}
+
+.actions {
+  display: flex;
+
+  justify-content: center;
+}
+
+.timer-btn {
+  margin: 30px;
+  width: 150px;
+  height: 70px;
+
+  border: 0px;
+  border-radius: 5px;
+
+  background: rgb(25, 131, 169);
+  color: #fff;
+
+  font-size: 30px;
+
+  &[data-action-stop] {
+    background-color: rgb(246, 62, 59);
+    &:hover {
+      color: rgb(246, 62, 59);
+    }
+  }
+
+  &:hover {
+    background-color: rgb(246, 227, 59);
+    color: rgb(25, 131, 169);
+  }
 }
