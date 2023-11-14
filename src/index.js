@@ -10,9 +10,9 @@ class Timer {
     this.isActive = false;
     this.resetBtnOn = false;
     this.onTick = onTick;
+    this.updateBtn = updateBtn;
 
     this.init();
-    this.updateBtn = updateBtn;
   }
 
   init() {
